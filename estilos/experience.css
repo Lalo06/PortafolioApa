@@ -1,0 +1,111 @@
+/* Seccion de Experiencia/Proyectos*/
+
+.experience {
+    width: 1136;
+    height: 1980;
+    gap: 32px;
+}
+
+.experience_section_title {
+    width: 361px;
+    height: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 10px 555px;
+}
+
+.experiencie_box {
+    width: 1136px;
+    height: 1910px;
+    gap: 64px;
+    padding: 10px;
+}
+
+.experience_img {
+     width: 972px;
+     height: 606px;
+     padding: 5px -15px;
+}
+
+.experience_info {
+    width: 368px;
+    height: 112px;
+    gap: 8px;
+    padding: 5px 10px;
+}
+
+.experience_title {
+    width: 368px;
+    height: 26px;
+    font-size: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display:flex;
+    line-height: 25.8px;
+    margin-left: 1080px; 
+    margin-top: -350px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.experience_text {
+    width: 368px;
+    height: 19px;
+    margin-left: 970px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30.9px;
+    padding: 5px 0;
+    color: rgba(70, 70, 70, 1);
+}
+
+.experience_description {
+    width: 560px;
+    height: 51px;
+    gap: 16px;
+    padding: 10px;
+}
+
+.experience_repo{
+    width: 116px;
+    height: 51px;
+    border: 1px;
+    padding: 19px;
+    gap: 10px;
+    margin-left: 1050px;
+}
+
+.experience__demo {
+    width: 84px;
+    height: 19px;
+    padding: 19px;
+    gap: 10px;
+    color: rgba(42, 122, 228, 1);
+    margin-left: 1170px;
+    display: flex;
+    margin-top: -70px;
+}
+.experience_bottom_repo {
+    width: 116px;
+    height: 51px;
+    border: 2px dotted rgba(42, 122, 228, 1);
+    color: rgba(42, 122, 228, 1);
+    transform: 0.2s;
+}
+.experience_bottom_repo:hover {
+    transform: scale(1.1);
+    background-color: rgb(236, 198, 247);
+}
+.experience__bottom--demo{
+    width: 110px;
+    height: 54px;
+    border: 2px solid rgb(158, 178, 231);
+    background-color: rgb(104, 163, 241);
+    margin-top: -110px;
+    margin: 0 25px;
+    transform: 0.2s;
+}
+.experience__bottom--demo:hover {
+    transform: scale(1.1);
+}

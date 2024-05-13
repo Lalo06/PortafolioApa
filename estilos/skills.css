@@ -1,0 +1,60 @@
+/* Seccion skills */
+.skills {
+    width: 1436px;
+    height: 244px;
+    gap: 32px;
+    padding: 45px 5px;
+    position: relative;
+    left: 50px;
+}
+
+.skills_title {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 37.5px;
+    display: inline-flex;
+    width: 82px;
+    height: 38px;
+    margin-left: 10px;
+   
+}
+
+.skills_line {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+   
+}
+
+.skills_box {
+    width: 100px;
+    height: 40px;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 45px 3%;
+     border: 1px solid #baddc4;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    transform: 0.2s;
+}
+
+.skills_box:hover {
+    transform: scale(1.1);
+    background-color: rgb(228, 201, 205);
+}
+
+.skills_img {
+    display: flex;
+    margin: 0 -35px;
+    
+}
+
+.skills_name{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 8px; 
+    margin-left: -30px;
+    color: rgba(70, 70, 70, 1);
+}

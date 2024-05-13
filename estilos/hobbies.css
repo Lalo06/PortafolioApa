@@ -1,0 +1,60 @@
+/* Seccion de Hobbies */
+
+.hobbies {
+    width: 1436px;
+    height: 244px;
+    gap: 32px;
+    padding: 45px 5px;
+    position: relative;
+    left: 50px;
+}
+
+.hobbies_title {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 37.5px;
+    display: inline-flex;
+    width: 127px;
+    height: 38px;
+    margin-left: 40px;
+}
+
+.hobbies_line {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    width: 1400px;
+    margin-left: 10px;
+}
+
+.hobbies_box {
+    width: 150px;
+    height: 60px;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 45px 3%;
+     border: 1px solid #baddc4;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    transform: 0.2s;
+}
+
+.hobbies_box:hover {
+    transform: scale(1.1);
+    background-color: rgb(181, 233, 236);
+}
+
+.hobbies_img {
+    display: flex;
+    margin: 0 -35px;
+}
+
+.hobbies_name {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 8px; 
+    margin-left: -30px;
+    color: rgba(70, 70, 70, 1);
+}

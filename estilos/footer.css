@@ -1,0 +1,17 @@
+
+.footer {
+    width: 1240px;
+    height: 102px;
+    padding: 32px;
+    gap: 10px;
+}
+.footer_rodapie p{
+    width: 259px;
+    height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(70, 70, 70, 1);
+    margin-left: 625px;
+    line-height: 37.8px;
+}

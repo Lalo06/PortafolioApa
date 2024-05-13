@@ -1,0 +1,119 @@
+
+
+:root {
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5F5;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* overflow: auto; */
+    font-size: 14px;
+    color: var(#000);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ol, ul, li {
+    border-bottom: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+/* Seccion del Menu */
+
+.title_div {
+    width: 1140px;
+    height: 510px;
+    padding: 0 25px;
+    margin: auto;
+}
+
+.img {
+    width: 370px;
+    height: auto;
+    display: flex;
+    padding: 15px 10px;
+    border-radius: 170px;
+    margin-left: 910px;
+}
+/* Seccion Title */
+.title_container {
+    width: 100%;
+    height: 25px;
+    padding: 25px 0;
+    margin: 100px 0;
+}
+
+.title_bio {
+    font-size: 40px;
+    line-height: 61.05px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    text-align: left;
+    margin-right: 400px;
+    margin-top: -390px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.title_subsection {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25.8px;
+    display: flex;
+    padding: 10px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.title_network {
+    width: 467px;
+    height: 24px;
+    gap: 32px;
+}
+
+.title_network_item {
+    display: inline-block;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100px;
+    height: 24px;
+    border: 1px solid #baddc4;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+    padding: 20px 0; 
+    transform: 0.1s;
+    cursor: pointer;
+}
+.title_network_item:hover {
+    transform: scale(1.1);
+    background-color: rgb(119, 204, 183);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+}
+@media screen and (max-width: 767px){
+    
+}
+
+
+@media screen  and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 479px) {
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+
+ol, ul, li {
+    border-bottom: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.menu_container {
+    width: 1400px;
+    height: auto;
+    position: absolute;
+    top: 0; /* Coloca el contenedor en la parte superior */
+    right: 0; /* Coloca el contenedor en el borde derecho */
+    line-height: 25.7px;
+    padding: 10px 0;
+    margin: 10px;
+    gap: 8px;
+    color: rgba(70, 70, 70, 1);
+    
+}
+
+.menu_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 150px;
+    bottom: 20px;
+}
+
+.menu_list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    height: auto;
+    margin: -1px;
+}
+
+.menu_list_item {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px; /* Espacio entre elementos */
+    left: 450px;
+    border: 2px solid rgb(163, 163, 238);
+    transform: .1s;
+}
+
+.menu_list_item:hover {
+    transform: scale(1.1);
+    background-color: rgb(81, 180, 180);
+}
+
+.title_div {
+    width: 1140px;
+    height: 510px;
+    padding: 0 25px;
+    margin: auto;
+}
+
+.img {
+    width: 370px;
+    height: auto;
+    display: flex;
+    padding: 45px 10px;
+    border-radius: 170px;
+    margin-left: 910px;
+}
+/* Seccion Title */
+.title_container {
+    width: 100%;
+    height: 25px;
+    padding: 25px 0;
+    margin: 100px 0;
+}
+
+.title_bio {
+    font-size: 40px;
+    line-height: 61.05px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    text-align: left;
+    margin-right: 400px;
+    margin-top: -390px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.title_subsection {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25.8px;
+    display: flex;
+    padding: 10px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.title_network {
+    width: 467px;
+    height: 24px;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+}
+@media screen and (max-width: 767px){
+    
+}
+
+@media screen  and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 479px) {
+    
+}
